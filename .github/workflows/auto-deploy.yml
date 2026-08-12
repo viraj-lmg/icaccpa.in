@@ -9,11 +9,13 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Deploy ICACCPA
-        uses: appleboy/ssh-action@v0.1.2
+        uses: appleboy/ssh-action@v1.2.2
         with:
           host: ${{secrets.SSH_HOST}}
           username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
+          password: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/html/icaccpa.in/public_html
-            git pull
+
+            git fetch origin master
+            git reset --hard origin/master
