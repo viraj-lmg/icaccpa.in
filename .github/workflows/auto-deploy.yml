@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/html/icaccpa.in/public_html
+            cd /var/www/html/demo.icaccpa.in/public_html
 
             git fetch origin master
             git reset --hard origin/master
