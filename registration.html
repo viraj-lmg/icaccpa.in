@@ -20,22 +20,98 @@
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Registration page specific styles -->
+    <style>
+      #registrations {
+        padding: 60px 0;
+      }
+
+      .registration-block {
+        margin-bottom: 42px;
+      }
+
+      .registration-block h3 {
+        margin-bottom: 18px;
+        font-weight: 700;
+      }
+
+      .registration-table-wrap {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 6px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .registration-table {
+        width: 100%;
+        min-width: 720px;
+        margin-bottom: 0;
+        border-collapse: collapse;
+        background: #ffffff;
+      }
+
+      .registration-table th,
+      .registration-table td {
+        padding: 14px 16px;
+        border: 1px solid #dee2e6;
+        vertical-align: middle;
+      }
+
+      .registration-table thead th {
+        background: #0b5f8a;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
+      .registration-table tbody th {
+        font-weight: 600;
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      .registration-table tbody td {
+        text-align: center;
+      }
+
+      .registration-table tbody tr:nth-child(even) {
+        background: #f8f9fa;
+      }
+
+      .registration-table .subsection-row th {
+        background: #eef6fa;
+        color: #222222;
+        text-align: left;
+        font-weight: 700;
+        white-space: normal;
+      }
+
+      .registration-note {
+        margin-top: 18px;
+      }
+
+      @media (max-width: 767.98px) {
+        #registrations {
+          padding: 40px 0;
+        }
+
+        .registration-table th,
+        .registration-table td {
+          padding: 11px 12px;
+          font-size: 14px;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -57,36 +133,27 @@
               <a class="nav-link scrollto" href="./index.html#about">About</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="./index.html#speakers"
-                >Speakers</a
-              >
+              <a class="nav-link scrollto" href="./index.html#speakers">Speakers</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="./index.html#schedule"
-                >Schedule</a
-              >
+              <a class="nav-link scrollto" href="./index.html#schedule">Schedule</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="./call-for-papers.html"
-                >Call For Papers</a
-              >
+              <a class="nav-link scrollto" href="./call-for-papers.html">Call For Papers</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="./#registrations"
-                >Registration</a
-              >
+              <a class="nav-link scrollto" href="./#registrations">Registration</a>
             </li>
             <li>
               <a class="nav-link scrollto" href="./committee.html">Committee</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="./index.html#contact"
-                >Contact Us</a
-              >
+              <a class="nav-link scrollto" href="./index.html#contact">Contact Us</a>
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
+
         <a
           class="registrations scrollto"
           href="https://cmt3.research.microsoft.com/ICACCP2025/Submission/Index"
@@ -99,61 +166,101 @@
     <main id="main" class="main-page">
       <!-- Registration Section -->
       <section id="registrations">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Registration Details</h2>
           </div>
 
-          <h3>Author's Registration</h3>
-          <div class="section-top-border">
-            <div class="progress-table-wrap">
-              <div class="progress-table">
-                <div class="table-head">
-                  <div class="serial"></div>
-                  <div class="category">Indian (Normal)</div>
-                  <div class="row1">Indian (Early Bird)</div>
-                  <div class="row2">Non-Indian (Normal)</div>
-                  <div class="row3">Non-Indian (Early Bird)</div>
-                </div>
-                <div class="table-row">
-                  <div class="serial">UG/PG/Research Scholar</div>
-                  <div class="category">INR 5,000</div>
-                  <div class="row1">INR 4,000</div>
-                  <div class="row2">INR 7,000</div>
-                  <div class="row3">INR 6,000</div>
-                </div>
-                <div class="table-row">
-                  <div class="serial">Manipal Group/ Manipal Alumni</div>
-                  <div class="category">INR 4,000</div>
-                  <div class="row1">INR 4,000</div>
-                  <div class="row2">INR 4,000</div>
-                  <div class="row3">INR 4,000</div>
-                </div>
-                <div class="table-row">
-                  <div class="serial">Academician</div>
-                  <div class="category">INR 8,000</div>
-                  <div class="row1">INR 6,000</div>
-                  <div class="row2">INR 10,000</div>
-                  <div class="row3">INR 8,000</div>
-                </div>
-                <div class="table-row">
-                  <div class="serial">Industry</div>
-                  <div class="category">INR 10,000</div>
-                  <div class="row1">-</div>
-                  <div class="row2">INR 10,000</div>
-                  <div class="row3">-</div>
-                </div>
-                <div class="table-row">
-                  <div class="serial">Attendee</div>
-                  <div class="category">INR 2,000</div>
-                  <div class="row1">-</div>
-                  <div class="row2">INR 2,000</div>
-                  <div class="row3">-</div>
-                </div>
-              </div>
+          <!-- Indian Delegates -->
+          <div class="registration-block">
+            <h3>Indian Delegates</h3>
+            <div class="registration-table-wrap">
+              <table class="registration-table" aria-label="Registration fees for Indian delegates">
+                <thead>
+                  <tr>
+                    <th scope="col">Category</th>
+                    <th scope="col">Early Bird Registration</th>
+                    <th scope="col">Regular Registration</th>
+                    <th scope="col">On Spot Registration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Student</th>
+                    <td>Rs. 6,000</td>
+                    <td>Rs. 7,000</td>
+                    <td>Rs. 8,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Faculty</th>
+                    <td>Rs. 8,000</td>
+                    <td>Rs. 9,000</td>
+                    <td>Rs. 10,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Industry</th>
+                    <td>Rs. 10,000</td>
+                    <td>Rs. 12,000</td>
+                    <td>Rs. 15,000</td>
+                  </tr>
+                  <tr class="subsection-row">
+                    <th colspan="4">Online Presentation** (in unavoidable circumstances)</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Student</th>
+                    <td colspan="3">Rs. 8,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Faculty</th>
+                    <td colspan="3">Rs. 10,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Industry</th>
+                    <td colspan="3">Rs. 12,000</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-          <p>
+
+          <!-- Foreign Delegates -->
+          <div class="registration-block">
+            <h3>Foreign Delegates</h3>
+            <div class="registration-table-wrap">
+              <table class="registration-table" aria-label="Registration fees for foreign delegates">
+                <thead>
+                  <tr>
+                    <th scope="col">Category</th>
+                    <th scope="col">Early Bird<br />(Till Jan 10, 2026)</th>
+                    <th scope="col">Regular Registration<br />(11 Jan–30 Jan, 2026)</th>
+                    <th scope="col">On Spot Registration<br />(After 1 Feb Jan, 2025)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Student</th>
+                    <td>USD 150</td>
+                    <td>USD 175</td>
+                    <td>USD 200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Faculty</th>
+                    <td>USD 200</td>
+                    <td>USD 225</td>
+                    <td>USD 250</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Industry</th>
+                    <td>USD 250</td>
+                    <td>USD 275</td>
+                    <td>USD 300</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <p class="registration-note">
             <span style="font-weight: bold">Note: </span
             ><a href="./assets/docs/ICACCPA_2025_latest.pdf" target="_blank">
               Open the Official Flyer.
@@ -177,10 +284,10 @@
                   >B.Tech</span
                 >.) in CSE, Bachelor of Technology (<span style="color: #4eafda"
                   >B.Tech</span
-                >.) in CSE (AI & ML), Bachelor of Technology (<span
+                >.) in CSE (AI &amp; ML), Bachelor of Technology (<span
                   style="color: #4eafda"
                   >B.Tech</span
-                >.) in CSE (IoT & Cybersecurity including Blockchain
+                >.) in CSE (IoT &amp; Cybersecurity including Blockchain
                 Technology), Master of Technology (<span style="color: #4eafda"
                   >M.Tech</span
                 >.) in CSE, and <span style="color: #4eafda">Ph.D</span>. The
