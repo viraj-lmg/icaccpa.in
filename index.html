@@ -179,9 +179,7 @@ The 6th International Conference on Advanced Computational and Communication Par
 				<div class="gallery-wrapper">
 					<div class="gallery">
 						<img src="assets/img/2023.webp" id="open-modal-btn-4" alt="Conference 7">
-						<img src="assets/img/2021.webp" id="open-modal-btn-3" alt="Conference 6">
-						<img src="assets/img/2019.webp" id="open-modal-btn-2" alt="Conference 6">
-						<img src="assets/img/2017.webp" id="open-modal-btn" alt="Conference 5">
+						<img src="assets/img/2025.png" id="open-modal-btn" alt="Conference 5">
 					</div>
 				</div>
 			</div>
@@ -200,61 +198,24 @@ The 6th International Conference on Advanced Computational and Communication Par
 					</div>
 				</div>
 			</div>
-			<!-- 2017 Images-->
+			<!-- 2025 Images-->
 			<div id="popup-modal-1-1" class="hidden-1">
 				<div class="sub-gallery-modal">
 					<button class="close-btn-1">&times;</button>
 					<div class="sub-gallery">
-						<img src="assets/img/4.webp" alt="Image 4">
-						<img src="assets/img/2.webp" alt="Image 2">
-						<img src="assets/img/3.webp" alt="Image 3">
-						<img src="assets/img/1.webp" alt="Image 1">
+						<img src="assets/img/2025/1.JPG" alt="Image 1">
+						<img src="assets/img/2025/2.JPG" alt="Image 2">
+						<img src="assets/img/2025/3.JPG" alt="Image 3">
+						<img src="assets/img/2025/4.JPG" alt="Image 4">
+						 <img src="assets/img/2025/5.JPG" alt="Image 5">
+						 <img src="assets/img/2025/6.JPG" alt="Image 6">
+						 <img src="assets/img/2025/7.JPG" alt="Image 7">
+						 <img src="assets/img/2025/8.JPG" alt="Image 8">
+						 <img src="assets/img/2025/9.JPG" alt="Image 9">
 					</div>
 				</div>
 			</div>
-			<div id="popup-modal-2" class="hidden-2">
-				<div class="sub-gallery-modal">
-					<button class="close-btn-2">&times;</button>
-					<div class="sub-gallery">
-						<img src="./assets/img/images.webp" id="open-modal-btn-2-2" alt="images">
-						<a href="https://ieeexplore.ieee.org/xpl/conhome/8869569/proceeding" target="_blank">
-							<img src="./assets/img/volume.webp" alt="images">
-						</a>
-					</div>
-				</div>
-			</div>
-			<div id="popup-modal-2-2" class="hidden-2">
-				<div class="sub-gallery-modal">
-					<button class="close-btn-2-2">&times;</button>
-					<div class="sub-gallery">
-						<img src="assets/img/4.webp" alt="Image 4">
-						<img src="assets/img/2.webp" alt="Image 2">
-						<img src="assets/img/3.webp" alt="Image 3">
-						<img src="assets/img/1.webp" alt="Image 1">
-					</div>
-				</div>
-			</div>
-			<div id="popup-modal-3" class="hidden-3">
-				<div class="sub-gallery-modal">
-					<button class="close-btn-3">&times;</button>
-					<div class="sub-gallery">
-						<img src="./assets/img/images.webp" id="open-modal-btn-3-3" alt="images">
-						<a href="https://link.springer.com/book/10.1007/978-981-16-4369-9" target="_blank">
-							<img src="./assets/img/volume.webp" alt="images">
-						</a>
-					</div>
-				</div>
-			</div>
-			<div id="popup-modal-3-3" class="hidden-3">
-				<div class="sub-gallery-modal">
-					<button class="close-btn-3-3">&times;</button>
-					<div class="sub-gallery">
-						<img src="assets/img/2021/3.JPG" alt="Image 3">
-						<img src="assets/img/2021/2.JPG" alt="Image 2">
-						<img src="assets/img/2021/1.JPG" alt="Image 1">
-					</div>
-				</div>
-			</div>
+			
 			<div id="popup-modal-4" class="hidden-4">
 				<div class="sub-gallery-modal">
 					<button class="close-btn-4">&times;</button>
@@ -270,12 +231,15 @@ The 6th International Conference on Advanced Computational and Communication Par
 				<div class="sub-gallery-modal">
 					<button class="close-btn-4-4">&times;</button>
 					<div class="sub-gallery">
-						<img src="assets/img/2023/1.JPG" alt="Image 1">
-						<img src="assets/img/2023/2.JPG" alt="Image 2">
-						<img src="assets/img/2023/3.JPG" alt="Image 3">
-						<img src="assets/img/2023/4.JPG" alt="Image 4">
-						<img src="assets/img/2023/5.JPG" alt="Image 4">
-						<img src="assets/img/2023/6.JPG" alt="Image 4">
+						<img src="assets/img/2023/1.jpg" alt="Image 1">
+						<img src="assets/img/2023/2.jpg" alt="Image 2">
+						<img src="assets/img/2023/3.jpg" alt="Image 3">
+						<img src="assets/img/2023/4.webp" alt="Image 4">
+						<img src="assets/img/2023/5.jpg" alt="Image 5">
+						<img src="assets/img/2023/6.webp" alt="Image 6">
+						<img src="assets/img/2023/7.jpg" alt="Image 7">
+						<img src="assets/img/2023/8.jpg" alt="Image 8">
+						<img src="assets/img/2023/9.webp" alt="Image 9">
 					</div>
 				</div>
 			</div>
@@ -873,85 +837,6 @@ document.querySelector('.close-btn-1').addEventListener('click', function() {
 window.addEventListener('click', function(event) {
 	if (event.target == document.getElementById('popup-modal-1-1')) {
 		document.getElementById('popup-modal-1-1').style.display = 'none';
-	}
-});
-
-
-// Popup-2
-// JavaScript to open and close the modal
-document.getElementById('open-modal-btn-2').addEventListener('click', function() {
-	document.getElementById('popup-modal-2').style.display = 'flex';
-});
-
-document.querySelector('.close-btn-2').addEventListener('click', function() {
-	document.getElementById('popup-modal-2').style.display = 'none';
-});
-
-// Optional: Close the modal when clicking outside of it
-window.addEventListener('click', function(event) {
-	if (event.target == document.getElementById('popup-modal-2')) {
-		document.getElementById('popup-modal-2').style.display = 'none';
-	}
-});
-
-// Popup-3
-// JavaScript to open and close the modal
-document.getElementById('open-modal-btn-3').addEventListener('click', function() {
-	document.getElementById('popup-modal-3').style.display = 'flex';
-});
-
-document.querySelector('.close-btn-3').addEventListener('click', function() {
-	document.getElementById('popup-modal-3').style.display = 'none';
-});
-
-// Popup-2-2
-// JavaScript to open and close the modal
-document.getElementById('open-modal-btn-2-2').addEventListener('click', function() {
-	document.getElementById('popup-modal-2-2').style.display = 'flex';
-});
-
-document.querySelector('.close-btn-2-2').addEventListener('click', function() {
-	document.getElementById('popup-modal-2-2').style.display = 'none';
-});
-
-// Optional: Close the modal when clicking outside of it
-window.addEventListener('click', function(event) {
-	if (event.target == document.getElementById('popup-modal-2-2')) {
-		document.getElementById('popup-modal-2-2').style.display = 'none';
-	}
-});
-
-// Popup-3
-// JavaScript to open and close the modal
-document.getElementById('open-modal-btn-3').addEventListener('click', function() {
-	document.getElementById('popup-modal-3').style.display = 'flex';
-});
-
-document.querySelector('.close-btn-3').addEventListener('click', function() {
-	document.getElementById('popup-modal-3').style.display = 'none';
-});
-
-// Optional: Close the modal when clicking outside of it
-window.addEventListener('click', function(event) {
-	if (event.target == document.getElementById('popup-modal-3')) {
-		document.getElementById('popup-modal-3').style.display = 'none';
-	}
-});
-
-// Popup-3-3
-// JavaScript to open and close the modal
-document.getElementById('open-modal-btn-3-3').addEventListener('click', function() {
-	document.getElementById('popup-modal-3-3').style.display = 'flex';
-});
-
-document.querySelector('.close-btn-3-3').addEventListener('click', function() {
-	document.getElementById('popup-modal-3-3').style.display = 'none';
-});
-
-// Optional: Close the modal when clicking outside of it
-window.addEventListener('click', function(event) {
-	if (event.target == document.getElementById('popup-modal-3-3')) {
-		document.getElementById('popup-modal-3-3').style.display = 'none';
 	}
 });
 
